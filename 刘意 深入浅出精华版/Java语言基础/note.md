@@ -24,7 +24,7 @@ Java语言基础
 
 ## 3. Java基础
 
-1. 源代码为ClassName.java -> ClassName.java中类名建议保持一致
+1. 源代码为ClassName.java -> ClassName.java中public类名需要和文件名保持一致
 2. 编译: javac ClassName.java
 3. 运行: java ClassName
 
@@ -69,7 +69,12 @@ Java语言基础
     - int[] a = new int[3]
     - int[] a = new int[] {1, 2, 3} / int[] a = {1, 2, 3}
     - array.length
+    - int[][] a = new int[3][4] / int[][] a = new int[3][] / int[][] a = {{}, {}, {}}
 - 栈
     - 局部变量
 - 堆
     - new, 有默认值
+
+## 5. 面向对象
+
+类（名词） -> 类的功能 -> 类与类的关系
