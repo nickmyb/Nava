@@ -143,3 +143,33 @@ Java语言基础
     - 接口成员方法默认是抽象方法, public abstract,只能是抽象方法
     - 接口与接口可以多继承(类是单继承)
     - "like a"
+- 包
+    - 分类管理(先模块后功能)
+    - 相同包路径下不能有重名包
+    - package必须是第一条可执行代码
+    - javac -d . xxx.java -> java p1.p2.xxx
+    - 不同包下访问要加包的全路径
+    - 类名不存在 -> a.b.c未编译 -> 类访问权限
+    - import a.b.ClassName
+- 修饰符: private default protected public
+    - 方法:
+        - 本类 本包 不同包子类 不同包非子类
+    - 类:
+        - 不能使用private protected static
+    - 构造方法:
+        - 不能使用static final abstract
+- 内部类
+    - 内部类可以直接访问外部类的成员
+    - 外部类访问内部类必须通过对象
+    - 成员内部类
+        - 访问内部类成员
+            - non-static: OuterClass.InnerClass oi = new OuterClass().new InnerClass();
+            - static: OuterClass.InnerClass oi = new OuterClass.InnerClass();
+        - 但内部类一般用private修饰不给在外部访问
+        - static内部类只能访问外部类的static成员,static内部类的方法仍然可以为非static方法,static内部类不能用外部类对象访问
+    - 内部类和外部类没有继承关系
+    - 局部内部类
+        - 访问内部类成员
+        - 局部内部类方法中访问的局部变量必须为final(局部变量调用后就回收,对象需要垃圾回收,所以需要final,Java8后自动final)
+    - 匿名内部类
+        - new ClassName/InterfaceName() { overwrite method }
