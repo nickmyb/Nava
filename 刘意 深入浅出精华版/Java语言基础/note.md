@@ -173,3 +173,13 @@ Java语言基础
         - 局部内部类方法中访问的局部变量必须为final(局部变量调用后就回收,对象需要垃圾回收,所以需要final,Java8后自动final)
     - 匿名内部类
         - new ClassName/InterfaceName() { overwrite method }
+
+## 5. Java常见API
+
+- Object
+    - hashCode
+    - getClass
+    - toString
+    - equals
+    - finalize
+    - clone
