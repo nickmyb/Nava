@@ -183,3 +183,5 @@ Java语言基础
     - equals
     - finalize
     - clone
+- Scanner
+- String
