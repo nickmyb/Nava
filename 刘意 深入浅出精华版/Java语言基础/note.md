@@ -196,3 +196,10 @@ Java语言基础
 - BigDecimal
 - Date / DateFormat
 - Calendar
+
+## 6. Collection
+
+- List
+    - ArrayList(线程不安全)
+    - Vector(deprecated)
+    - LinkedList(线程不安全)
