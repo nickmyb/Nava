@@ -188,3 +188,11 @@ Java语言基础
 - StringBuffer & StringBuilder
 - Arrays
 - Boxing
+- java.util.regex.Pattern
+- Math
+- Random
+- System
+- BigInteger
+- BigDecimal
+- Date / DateFormat
+- Calendar
