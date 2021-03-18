@@ -203,3 +203,10 @@ Java语言基础
     - ArrayList(线程不安全)
     - Vector(deprecated)
     - LinkedList(线程不安全)
+- Generic
+    - class: class C<T>
+    - method: public <T> void m(T t);
+    - ?
+- for-each
+- import static
+- variable args: T...
