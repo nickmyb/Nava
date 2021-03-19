@@ -214,3 +214,9 @@ Java语言基础
     - HashSet: 无序, HashMap && hashCode && equals
     - TreeSet: 有序, compareTo && 左(小)中右(大)二叉树
 - 哈希表: 链表数组
+- Collections
+
+## 7. Map
+
+- HashMap
+- TreeMap
