@@ -220,3 +220,18 @@ Java语言基础
 
 - HashMap
 - TreeMap
+
+## 8. Exception
+
+- Exception
+    - Error
+    - Exception: RuntimeException & non-RuntimeException
+- handle
+    - try catch finally
+    - throws
+    - throw
+    - 子类的异常要小于父类
+
+## 9. IO
+
+- File
