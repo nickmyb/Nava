@@ -240,3 +240,5 @@ Java语言基础
 - Reader
 - Writer
 - Encoding
+- transient: 防止序列化(序列化后读取值会丢失)
+- NIO(内存访问)
