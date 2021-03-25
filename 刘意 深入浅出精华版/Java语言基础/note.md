@@ -242,3 +242,13 @@ Java语言基础
 - Encoding
 - transient: 防止序列化(序列化后读取值会丢失)
 - NIO(内存访问)
+
+## 10. 多线程
+
+- Thread
+- Runnable
+- 线程安全
+    - 多线程
+    - 数据共享
+    - 多语句操作共享数据
+- synchronized (Object)
