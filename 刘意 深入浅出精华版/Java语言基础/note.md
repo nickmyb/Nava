@@ -252,3 +252,10 @@ Java语言基础
     - 数据共享
     - 多语句操作共享数据
 - synchronized (Object)
+- Lock
+- 线程通信: 不同种类线程对同一资源的操作
+- 执行到任一语句都可能会切换执行权限(随机)
+- Object
+    - notify
+    - wait
+- Runtime(单例)
